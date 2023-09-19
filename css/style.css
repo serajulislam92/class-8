@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 1770px;
+  height: auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.align-center{
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+body{
+  font-family: font-family: 'Roboto', sans-serif;
+}
+/* Basic css end */
+nav{
+  background-color: royalblue;
+}
+nav .logo{
+  width: 30%;
+}
+nav .menu{
+  width: 70%;
+}
+nav .menu ul li{
+  text-align: right;
+}
+nav .menu ul li{
+  display: inline-block;
+}
+nav .menu ul li a{
+  font-weight: 800;
+  font-size: 20px;
+  color: azure;
+  text-transform: uppercase;
+  padding: 25px;
+  display: inline-block;
+
+}
+/* nav end */
+#Banner{
+  height: 728px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../img/banner.jpg);
+  position: relative;
+  z-index: 1;
+  
+
+}
+#Banner{
+  content: ;
+  width: 100%;
+  height: 100%;
+  opacity: 0.35px;
+  background-color: darkslategrey;
+  position: absolute;
+  z-index: -1;
+}
+#Banner .Banner_cnt{
+  text-align: center;
+  color: aliceblue;
+  width: 100%;
+}
+#Banner .Banner_cnt h2{
+  font-weight: 400px;
+  font-size: 30px;
+
+}
+#Banner .Banner_cnt h1{
+  font-weight: 800px;
+  text-transform: uppercase;
+  font-size: 68px;
+  letter-spacing: 30px;
+}
+#Banner .Banner_cnt p{
+  font-weight: 400px;
+ font-size: 18px;
+}
+#Banner .Banner_cnt a{
+  display: block;
+  background-color:yellowgreen;
+  font-size: 14px;
+  font-weight: 400px;
+  text-transform: uppercase;
+  width: 200px;
+  height: 50px;
+  margin: auto;
+  line-height: 50px;
+}
+#Banner .row{
+  height: 728px;
+
+}
